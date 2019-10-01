@@ -11,7 +11,7 @@ int main()
 	cout << "Введите размер файла в байтах" << endl;
 	cin >> a;
 	b = floor(a / 1024);
-	cout << "Размер файла в байтах равен " << b << endl;
+	cout << "Размер файла в килобайтах равен " << b << endl;
 
 	system("pause");
 	return 0;

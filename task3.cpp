@@ -16,8 +16,7 @@ int main()
 	{
 		if (a > b)
 		{
-			c = a / b;
-			a = a - b * c;
+			a = a % b;
 			cout << "Длина незанятой части отрезка A равна " << a << endl;
 		}
 		else
